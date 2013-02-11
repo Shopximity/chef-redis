@@ -5,8 +5,9 @@
   ],
   
   "redis" : {
-
-       "listen_port" : 9911
+     "config" : {
+                 "listen_port" : <port number here>,
+                 "requirepass" : "password here"
+    }
   }
 }
-
