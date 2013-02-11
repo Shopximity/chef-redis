@@ -1,0 +1,12 @@
+{
+  "run_list": [ "recipe[redis]",
+		"recipe[redis::default]",
+                "recipe[redis::server_source]"
+  ],
+  
+  "redis" : {
+
+       "listen_port" : 9911
+  }
+}
+
